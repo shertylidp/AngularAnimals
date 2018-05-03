@@ -1,14 +1,14 @@
 'use strict';
 
-angular.module('myApp.view2', ['ngRoute'])
+angular.module('myApp.dogs', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view2', {
+  $routeProvider.when('/dogs', {
     templateUrl: 'view2/view2.html',
-    controller: 'View2Ctrl'
+    controller: 'dogsCtrl'
   });
 }])
 
-.controller('View2Ctrl', [function() {
+.controller('dogsCtrl', [function() {
 
 }]);
